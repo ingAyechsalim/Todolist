@@ -1,5 +1,7 @@
 # Todolist
-
+ i build a small app With Angular 7, looking at most of the fundamental concepts like components, services, modules
+using  fake api from 'https //jsonplaceholder.typicode.com' to get post delete and put Todo
+i use angular router for routing,bootsrap for design
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
 ## Development server
