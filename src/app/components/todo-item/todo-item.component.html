@@ -1,0 +1,17 @@
+<div>
+  <form>
+    <div class="form-row align-items-center">
+      <div class="col-8 my-1">
+        <div class="c mr-sm-2">
+          <input type="checkbox" (change)="onToggle(todo)" />
+          <label [ngClass]="setClasses()">{{ todo.title }}</label>
+        </div>
+      </div>
+      <div class="col-auto my-1">
+        <button type="submit" (click)="onDelete(todo)" class="btn btn-danger">
+          X
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
